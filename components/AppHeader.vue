@@ -43,7 +43,13 @@ const navLinks = [
                         <span class="text-2xl font-bold text-gray-700 dark:text-white">Горска педагогика</span>
                     </NuxtLink>
                 </div>
+                <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
+                    <ElementsThemeSwitcher />
+                    
+                </div>    
+                
                 <div 
+
                     class="absolute top-full px-5 sm:px-8 md:px-12 lg:px-0 
                     lg:pt-0 lg:top-0 invisible opacity-40 lg:opacity-100 bg-body rounded-xl border border-box-border shadow-lg shadow-box-shadow 
                     lg:border-none lg:shadow-none lg:rounded-none
