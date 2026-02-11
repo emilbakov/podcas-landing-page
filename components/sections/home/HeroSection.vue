@@ -12,7 +12,7 @@
                     </div>
                     
                     </div>
-                    <img class="lg:mx-0 mx-auto rounded-3xl object-cover" src="/public/hero.jpg" alt="about Us image" />
+                    <img class="lg:mx-0 mx-auto rounded-3xl object-cover" src="/hero.jpg" alt="about Us image" />
                 </div>
                 </div>
             </section>
@@ -22,7 +22,7 @@
                 <div class="max-w-6xl mx-auto px-6">
                     <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-center">
                     <div class="max-w-9/10 border-4 border-green-600 rounded-lg p-8 bg-contain bg-center shadow-xl"
-                        style="background-image: url('/public/forestback.jpg');">
+                        style="background-image: url('/forestback.jpg');">
                         <div class="bg-transparent bg-opacity-95 rounded-lg p-8 backdrop-blur-xs"> 
                         <h1 class="text-3xl md:text-5xl font-black text-green-950 text-center drop-shadow-lg">
                         НАШИТЕ ПРОГРАМИ</h1>
@@ -139,7 +139,7 @@
             <section class="text-gray-600 body-font overflow-hidden">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-                    <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/public/gather.jpg">
+                    <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/gather.jpg">
                     <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                         <h1 class="text-gray-900 text-5xl title-font font-bold mb-1">В центъра на всичко е ученето чрез игри и преживяване.</h1>
                     
@@ -350,7 +350,7 @@
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                     <div class="img-box">
-                    <img src="/public/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl ">
+                    <img src="/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl ">
                     </div>
                     <div class="lg:pl-[100px] flex items-center">
                     <div class="data w-full">
