@@ -350,7 +350,7 @@
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                     <div class="img-box">
-                    <img src="public/images/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl ">
+                    <img src="/public/images/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl ">
                     </div>
                     <div class="lg:pl-[100px] flex items-center">
                     <div class="data w-full">
