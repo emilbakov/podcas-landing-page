@@ -24,7 +24,7 @@
                     <div class="max-w-9/10 border-4 border-green-600 rounded-lg p-8 bg-contain bg-center shadow-xl"
                         style="background-image: url('/images/forestback.jpg');">
                         <div class="bg-transparent bg-opacity-95 rounded-lg p-8 backdrop-blur-xs"> 
-                        <h1 class="text-3xl md:text-5xl font-black text-green-950 text-center drop-shadow-lg">
+                        <h1 class="text-3xl md:text-5xl font-black text-green-950 text-center drop-shadow-lg  backdrop-blur-xs">
                         НАШИТЕ ПРОГРАМИ</h1>
 
                         </div>
@@ -43,11 +43,11 @@
                         <h3 class="text-2xl font-bold text-green-950 mb-2">Горска Педагогика 
             </h3>
                         <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Gentle introduction to forest exploration with parent participation. Focus on sensory experiences and basic nature concepts.</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Горската педагогика е уникална комбинация от забавни интерактивни игри и увлекателни беседи, които отварят вратите към приказния свят на природата. </p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Weekly 90-minute sessions</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Parent-child activities</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Seasonal themes</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Тайните на дивия свят</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Насекоми и влечуги</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Природни богатства</li>
                         </ul>
                         </div>
                     </div>
@@ -58,12 +58,13 @@
                         </div>
                         <div class="p-8">
                         <h3 class="text-2xl font-bold text-green-950 mb-2">Горски тиймбилдинг – FOREST TEAM BONDING</h3>
-                        <p class="text-green-600 font-semibold mb-4">Ages 7-12</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Adventure-focused program building confidence and knowledge through hands-on green exploration and team activities.</p>
+                        <p class="text-green-600 font-semibold mb-4">All Ages</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Внимание, екипи! Време е да оставите лаптопите и да „спасите Земята“ – буквално!
+Писнало ли ви е от безкрайни Zoom срещи, монитори, които ви „гледат“ лошо, и термина „burnout“, който дебне зад всеки ъгъл?. </p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> 2-hour weekly expeditions</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Independent learning</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Achievement badges</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Ще пренасяте планетата Земя </li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Ще станете горски детективи</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Ще разберете коя гъба е за супа и коя – само за снимка</li>
                         </ul>
                         </div>
                     </div>
@@ -75,11 +76,11 @@
                         <div class="p-8">
                         <h3 class="text-2xl font-bold text-green-950 mb-2">Горско отдръпване – Forest retreat</h3>
                         <p class="text-green-600 font-semibold mb-4">All Ages</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Monthly family events and weekend camping trips designed for multi-generational learning and bonding in nature.</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Горско отдръпване, обединяваща практиките Шинрин-йоку (горски бани) и Шинрин-рьохо (горска терапия) като методи за справяне със стреса в съвременния свят. Чрез осъзнато стимулиране на сетивата и отдалечаване от технологиите, тези занимания помагат за възстановяване на физическото здраве, укрепване на имунитета и постигане на емоционален баланс</p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Monthly weekend events</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Camping trips</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Whole family activities</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Пробудете сетивата си</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Научно доказано здраве</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Излекувайте ума и сърцето си</li>
                         </ul>
                         </div>
                     </div>
@@ -90,12 +91,13 @@
                         </div>
                         <div class="p-8">
                         <h3 class="text-2xl font-bold text-green-950 mb-2">Горски семейни и групови игри и приключения сред природата</h3>
-                        <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Gentle introduction to forest exploration with parent participation. Focus on sensory experiences and basic nature concepts.</p>
+                        <p class="text-green-600 font-semibold mb-4">All ages</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Върнете се към природата и открийте магията ѝ заедно със своите близки! В тези натоварени времена излизането на открито не е просто почивка, а истинско „презареждане“ на силите, което ни помага да се справим със стреса и тревожността.
+                        </p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Weekly 90-minute sessions</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Parent-child activities</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Seasonal themes</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Следотърсачество</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Приказната „аптека“ на природата</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Безопасност</li>
                         </ul>
                         </div>
                     </div>
@@ -107,11 +109,13 @@
                         <div class="p-8">
                         <h3 class="text-2xl font-bold text-green-950 mb-2">⦁	Горска разходка  - Планински преходи с интересни беседи за гората</h3>
                         <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Gentle introduction to forest exploration with parent participation. Focus on sensory experiences and basic nature concepts.</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Планински преходи с мисия: Открий тайните на гората и преоткрийте себе си. Забравете за обикновеното ходене в планината
+
+Отвъд пътеките: Открийте скрития език на гората с вашия горски водач. Забравете за стандартните разходки. Каня ви на едно по-различно пътешествие – „Горска разходка“, където планината не е просто декор, а жив организъм, с който ще се научите да общувате. </p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Weekly 90-minute sessions</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Parent-child activities</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Seasonal themes</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Беседи за „интелигентността“ на гората: </li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span>  Представете си гората като гигантска, жива библиотека</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Елате, за да научите тайните на планините</li>
                         </ul>
                         </div>
                     </div>
@@ -123,11 +127,11 @@
                         <div class="p-8">
                         <h3 class="text-2xl font-bold text-green-950 mb-2">Горски лагер</h3>
                         <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
-                        <p class="text-gray-700 mb-6 leading-relaxed">Gentle introduction to forest exploration with parent participation. Focus on sensory experiences and basic nature concepts.</p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">Представете си място, където телефонът не е нужен, защото реалността е по-вълнуваща от всяка игра, а класната стая няма стени, а само вековни дървета</p>
                         <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Weekly 90-minute sessions</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Parent-child activities</li>
-                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Seasonal themes</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Училище за следотърсачи</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Зелена аптека и оцеляване</li>
+                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Горски архитекти и творци</li>
                         </ul>
                         </div>
                     </div>
