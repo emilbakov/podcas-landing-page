@@ -2,7 +2,7 @@
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
            <!-- section hero -->
-            <section class="py-24 container mx-auto relative border-2 border-solid rounded-3xl">
+            <section class="py-24 container mx-auto relative border-2 border-solid rounded-3xl mt-5">
                 <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
                 <div class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
@@ -18,7 +18,7 @@
             </section>
 
              <!-- programs -->
-            <section id="programs" class="py-24 container mx-auto bg-gradient-to-b from-green-100 to-green-50 rounded-3xl">
+            <section id="programs" class="py-24 mt-5 container mx-auto bg-gradient-to-b from-green-100 to-green-50 rounded-3xl">
                 <div class="max-w-6xl mx-auto px-6">
                     <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-center">
                     <div class="max-w-9/10 border-4 border-green-600 rounded-lg p-8 bg-contain bg-center shadow-xl"
@@ -136,7 +136,7 @@
                 </div>
             </section>
             <!-- 2title -->
-            <section class="text-gray-600 body-font overflow-hidden">
+            <section class="text-gray-600 body-font overflow-hidden mt-5">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="lg:w-4/5 mx-auto flex flex-wrap">
                     <NuxtImg alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/images/gather.jpg"/>
@@ -156,7 +156,7 @@
                             
            
             <!-- 3 -->
-            <div class="container px-5 py-12 mx-auto flex flex-wrap  bg-gradient-to-b from-green-100 to-green-50 rounded-3xl">
+            <div class="container px-5 py-12 mx-auto flex flex-wrap  bg-gradient-to-b from-green-100 to-green-50 rounded-3xl ">
                 <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                 <NuxtImg alt="feature" class="object-contain object-center h-full w-full rounded-3xl" src="/images/hero1.png" />
                 </div>
