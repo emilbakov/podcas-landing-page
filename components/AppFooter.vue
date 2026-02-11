@@ -17,9 +17,8 @@
                 </div>
 
                 <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
-                <BlocksFooterNavBlock title="Ressources" :links="ressourcesLinks" />
-                <BlocksFooterNavBlock title="Support" :links="supportLinks" />
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
+                
+               
             </div>
         </AtomsContainer>
         <div class="py-2 bg-gray-200 dark:bg-[rgb(10,16,29)]">
@@ -27,7 +26,7 @@
                 <div class="flex justify-between items-center gap-5 text-gray-600 dark:text-gray-300">
                     <div class="">
                         &copy; {{ new Date().getFullYear() }} Allright Reserved. Designed by <NuxtLink target="_blank"
-                            to="#" class="font-bold text-primary">Kat Mj</NuxtLink>
+                            to="#" class="font-bold text-primary">bakov @ studio</NuxtLink>
                     </div>
 
                     <div class="flex items-center gap-x-3">
@@ -69,44 +68,10 @@ const quickLinks = [
         href: "#",
         text: "Team"
     },
-    {
-        href: "#",
-        text: "Solution"
-    }
-]
-const ressourcesLinks = [
-    {
-        href: "#",
-        text: "Developpers"
-    },
-    {
-        href: "#",
-        text: "Integration"
-    },
-    {
-        href: "#",
-        text: "Pricing"
-    }
+   
 ]
 
-const supportLinks = [
-    {
-        href: "#",
-        text: "Contact-us"
-    },
-    {
-        href: "#",
-        text: "Licence"
-    },
-    {
-        href: "#",
-        text: "Terms"
-    },
-    {
-        href: "#",
-        text: "FAQ"
-    }
-]
+
 
 
 </script>

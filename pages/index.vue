@@ -1,21 +1,19 @@
 <script setup lang="ts">
 useHead({
-  title: 'Podux - Home',
+  title: 'Горска педагогика ',
   meta: [
-    { name: 'description', content: 'Podux Podcast landing page website.' },
+    { name: 'description', content: 'горска педагогика' },
   ],
   link: [
-    { rel: 'icon', type: 'image/png', href: '/logo.png' }
+    { rel: 'icon', type: 'image/png', href: '/logo1.png' }
   ],
 })
 </script>
 <template>
     <div>
+        
+        
         <SectionsHomeHeroSection/>
-        <SectionsHomeLatestPodcast/>
-        <SectionsHomePopularPodcasts/>
-        <SectionsAboutPodux/>
-        <SectionsWhyUs/>
-        <SectionsCallToAction/>
+      
     </div>
 </template>
