@@ -12,7 +12,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                 <div class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                        <h2 class="text-green-950 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">Готови ли
+                        <h2 class="text-green-950 bg-clip-text text-4xl font-black font-manrope leading-normal lg:text-start text-center text-5xl drop-shadow-lg">Готови ли
                         сте да замените шума на града и светлината на екраните?</h2>
                     </div>
                     
@@ -23,13 +23,13 @@ import NavLink from '~/components/atoms/NavLink.vue';
             </section>
 
              <!-- programs -->
-            <section id="programs" class="py-24 mt-5 container mx-auto bg-gradient-to-b from-green-100 to-green-50 rounded-3xl">
+            <section id="programs" class="py-12 mt-5 container mx-auto bg-gradient-to-b from-green-100 to-green-50 rounded-3xl">
                 <div class="max-w-6xl mx-auto px-6">
                     <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-center">
-                    <div class="max-w-9/10 border-4 border-green-600 rounded-lg p-8 bg-contain bg-center shadow-xl"
+                    <div class="max-w-9/10 border-4 border-green-600 rounded-lg p-8 bg-contain bg-center shadow-xl "
                         style="background-image: url('/images/forestback.jpg');">
-                        <div class="bg-transparent bg-opacity-95 rounded-lg p-8 backdrop-blur-xs"> 
-                        <h1 class="text-3xl md:text-5xl font-black text-green-950 text-center drop-shadow-lg  backdrop-blur-xs">
+                        <div class="rounded-lg p-8 "> 
+                        <h1 class="bg-transperant bg-white text-3xl md:text-5xl font-black text-green-950 text-center drop-shadow-lg">
                         НАШИТЕ ПРОГРАМИ</h1>
 
                         </div>
@@ -63,7 +63,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                             <!-- p2 -->
                         <a>
                             <NuxtLink to="/programs/2" class="block">
-                                <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl border-4 border-green-700 ">
+                                <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl border-4 ">
                                     <div class="h-48 bg-gradient-to-br from-green-700 to-green-900 flex items-center justify-center">
                                     <span class="text-7xl">🌳</span>
                                     </div>
@@ -188,7 +188,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
             </section>
             <!-- 2title -->
             <section class="text-gray-600 body-font overflow-hidden mt-5">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-12 mx-auto">
                     <div class="lg:w-4/5 mx-auto flex flex-wrap">
                     <NuxtImg alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/images/gather.jpg"/>
                     <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
@@ -313,7 +313,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                 </div>
             </div>
              <!-- why matter -->
-            <section id="benefits" class="py-24 bg-white">
+            <section id="benefits" class="py-12 bg-white">
             <div class="max-w-6xl mx-auto px-6">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="relative">
@@ -363,7 +363,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
             </div>
             </section>
             <!-- testimonials -->
-            <section class="py-24 bg-gradient-to-b from-green-100 to-green-50">
+            <section class="py-12 bg-gradient-to-b from-green-100 to-green-50">
                 <div class="max-w-6xl mx-auto px-6">
                     <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-bold text-green-950 mb-4">What Families Say</h2>
