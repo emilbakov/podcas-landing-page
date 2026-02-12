@@ -371,26 +371,26 @@ import NavLink from '~/components/atoms/NavLink.vue';
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">"My daughter has become so much more confident and curious about the world around her. The instructors are amazing and truly passionate about what they do."</p>
+                        <p class="text-gray-700 italic mb-6 leading-relaxed">"Чудесно лагерче. Браво Момчета!"</p>
                         <div>
-                        <p class="font-bold text-green-950">Sarah M.</p>
-                        <p class="text-sm text-gray-600">Parent of Junior Ranger</p>
+                        <p class="font-bold text-green-950">Филип Караасенов</p>
+                        <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
                     <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">"The family adventure weekends have brought us closer together. It's wonderful to learn alongside our kids and unplug from technology."</p>
+                        <p class="text-gray-700 italic mb-6 leading-relaxed">"Супер беше"</p>
                         <div>
-                        <p class="font-bold text-green-950">James & Lisa K.</p>
-                        <p class="text-sm text-gray-600">Family Program Members</p>
+                        <p class="font-bold text-green-950">Christoff D Scavenger</p>
+                        <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
                     <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">"Our son loves every session! He comes home excited to share what he learned and has developed a real appreciation for nature."</p>
+                        <p class="text-gray-700 italic mb-6 leading-relaxed">"❤️"</p>
                         <div>
-                        <p class="font-bold text-green-950">Michael T.</p>
-                        <p class="text-sm text-gray-600">Parent of Little Seedling</p>
+                        <p class="font-bold text-green-950">Maria Ivaylova</p>
+                        <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
                     </div>
