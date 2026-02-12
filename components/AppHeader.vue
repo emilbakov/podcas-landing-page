@@ -44,7 +44,6 @@ const navLinks = [
                     </NuxtLink>
                 </div>
                 <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
-                    <ElementsThemeSwitcher />
                     
                 </div>    
                 <div class="flex lg:hidden border-l border-box-border pl-2">
