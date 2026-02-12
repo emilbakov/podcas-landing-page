@@ -17,7 +17,8 @@
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo, veritatis
+                        Горската педагогика е като „жив учебник“ – вместо да четете за природата, вие влизате в нейните страници, за да я почувствате, разберете и обикнете чрез личен опит и игра.
+
                     </p>
                 </div>
 
