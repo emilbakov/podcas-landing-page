@@ -13,7 +13,7 @@ useHead({
     <div>
         
         
-        <SectionsHomeHeroSection/>
+      <SectionsHomeHeroSection/>
       
     </div>
 </template>

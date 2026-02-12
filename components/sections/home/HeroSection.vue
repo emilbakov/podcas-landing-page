@@ -397,7 +397,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                 </div>
             </section>
             <!-- about -->
-            <section class="py-14 lg:py-24 relative">
+            <section id="about" class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                     <div class="img-box">
@@ -427,7 +427,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                 </div>
             </section>
             <!-- contact -->
-            <section class="py-24">
+            <section id="contact" class="py-24">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="md:flex gap-x-24 clear-left md:mb-16 mb-10">
                         <div class=" md:mb-0 mb-4">

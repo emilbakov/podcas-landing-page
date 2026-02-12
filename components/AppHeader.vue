@@ -14,12 +14,16 @@ const navLinks = [
     },
     {
         text: "Програми",
-        href: "/"
+        href: "/#programs"
     },
    
     {
         text: "За нас",
-        href: "/"
+        href: "/#about"
+    },
+    {
+        text: "Контакти",
+        href: "/#contact"
     }
 ]
 

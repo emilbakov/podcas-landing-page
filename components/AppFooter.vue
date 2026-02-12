@@ -22,7 +22,7 @@
                     </p>
                 </div>
 
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
+                <BlocksFooterNavBlock title="Меню" :links="quickLinks" />
                 
                
             </div>
@@ -63,18 +63,21 @@
 <script lang="ts" setup>
 const quickLinks = [
     {
-        href: "#",
-        text: "About us"
+        href: "/",
+        text: "Начало"
     },
     {
-        href: "#",
-        text: "News"
+        href: "/#programs",
+        text: "Програми"
     },
     {
-        href: "#",
-        text: "Team"
+        href: "/#about",
+        text: "За нас"
     },
-   
+    {
+        href: "/#contact",
+        text: "Контакти"
+    }
 ]
 
 

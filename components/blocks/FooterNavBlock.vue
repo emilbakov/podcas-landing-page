@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="d-flex items-right  ">
         <h2 class="text-xl font-bold text-gray-700 dark:text-white">
             {{ title }}
         </h2>
