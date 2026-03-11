@@ -107,7 +107,7 @@ const slides  = [
                             </NuxtLink>
                         </a>
                             <!-- p2 -->
-                        <a data-aos="flip-up" data-aos-duration="1500">
+                        <a data-aos="flip-up" data-aos-duration="3000">
                             <NuxtLink to="/programs/2" class="block">
                                 <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl border-4 ">
                                     <div class="h-48 bg-gradient-to-br from-green-700 to-green-900 flex items-center justify-center">
@@ -156,7 +156,7 @@ const slides  = [
                         
                         <!-- p4 --> 
 
-                        <a data-aos="flip-up" data-aos-duration="1000">
+                        <a data-aos="flip-up" data-aos-duration="3000">
                             <NuxtLink to="/programs/4" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                         <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -181,7 +181,7 @@ const slides  = [
                        
                      <!-- p5 -->
 
-                        <a data-aos="flip-up" data-aos-duration="1500">
+                        <a data-aos="flip-up" data-aos-duration="3000">
                             <NuxtLink to="/programs/5" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                     <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -207,7 +207,7 @@ const slides  = [
 
                         
                      <!-- p6 -->
-                        <a data-aos="flip-up" data-aos-duration="2000">
+                        <a data-aos="flip-up" data-aos-duration="3000">
                             <NuxtLink to="/programs/3" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                         <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -260,8 +260,8 @@ const slides  = [
                 <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                 <NuxtImg alt="feature" class="object-contain object-center h-full w-full rounded-3xl" src="/images/hero1.png" />
                 </div>
-                <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center" >
+                <div class="flex flex-col mb-10 lg:items-start items-center" data-aos="flip-up" data-aos-duration="3000">
                     <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                     <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -276,7 +276,7 @@ const slides  = [
                     </svg>
 
                     </div>
-                    <div class="flex-grow">
+                    <div class="flex-grow" >
                     <h2 class="text-green-950 text-lg title-font font-medium mb-3">Приключение за всяка възраст:</h2>
                     <p class="leading-relaxed text-base">Няма значение дали сте на 5 или на 105 години! Програмите са специално
                         адаптирани – от вълнуващи детски игри до професионален Горски тиймбилдинг (Forest Team Bonding) и
@@ -285,7 +285,7 @@ const slides  = [
 
                     </div>
                 </div>
-                <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex flex-col mb-10 lg:items-start items-center" data-aos="flip-up" data-aos-duration="3000">
                     <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                     <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -300,7 +300,7 @@ const slides  = [
                     </svg>
 
                     </div>
-                    <div class="flex-grow">
+                    <div class="flex-grow" >
                     <h2 class="text-green-900 text-lg title-font font-medium mb-3">Учене, което вдъхновява</h2>
                     <p class="leading-relaxed text-base">Забравете сухата теория. Тук знанието се надгражда стъпка по стъпка,
                         започвайки от основите на природата и преминавайки към сложни екипни предизвикателства.
@@ -308,7 +308,7 @@ const slides  = [
 
                     </div>
                 </div>
-                <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex flex-col mb-10 lg:items-start items-center" data-aos="flip-up" data-aos-duration="3000">
 
                     <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                     <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -325,14 +325,14 @@ const slides  = [
 
                     </div>
 
-                    <div class="flex-grow">
+                    <div class="flex-grow" >
                     <h2 class="text-green-900 text-lg title-font font-medium mb-3">В ръцете на експерт:</h2>
                     <p class="leading-relaxed text-base">Нашето пътешествие се води от инж. Николай Адев – опитен лесничей и
                         планински водач с лиценз №В-00485, който превръща всяка беседа за обитателите на гората в истинска история.
                     </p>
 
                     </div>
-                    <div class="flex-grow mt-10">
+                    <div class="flex-grow mt-10" data-aos="flip-up" data-aos-duration="3000">
                     <div class="flex flex-col mb-10 lg:items-start items-center">
                         <div
                         class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
@@ -361,7 +361,7 @@ const slides  = [
                 </div>
             </div>
              <!-- why matter -->
-            <section id="benefits" class="py-12 bg-white">
+            <section id="benefits" class="py-12 bg-white" data-aos="flip-up" data-aos-duration="3000">
             <div class="max-w-6xl mx-auto px-6">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="relative">
@@ -373,7 +373,7 @@ const slides  = [
                     <h2 class="text-4xl font-bold text-green-950 mb-8">Защо да изберете това преживяване?
         </h2>
                     <div class="space-y-8">
-                    <div class="flex gap-6">
+                    <div class="flex gap-6"data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" >
                         <div class="text-3xl font-bold text-green-600 opacity-50 flex-shrink-0">01</div>
                         <div>
                         <h3 class="text-xl font-bold text-green-950 mb-2">Пробудете сетивата си</h3>
@@ -381,7 +381,7 @@ const slides  = [
         </p>
                         </div>
                     </div>
-                    <div class="flex gap-6">
+                    <div class="flex gap-6" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                         <div class="text-3xl font-bold text-green-600 opacity-50 flex-shrink-0">02</div>
                         <div>
                         <h3 class="text-xl font-bold text-green-950 mb-2">Научно доказано здраве</h3>
@@ -389,7 +389,7 @@ const slides  = [
         </p>
                         </div>
                     </div>
-                    <div class="flex gap-6">
+                    <div class="flex gap-6" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                         <div class="text-3xl font-bold text-green-600 opacity-50 flex-shrink-0">03</div>
                         <div>
                         <h3 class="text-xl font-bold text-green-950 mb-2">Излекувайте ума и сърцето си</h3>
@@ -397,7 +397,7 @@ const slides  = [
         </p>
                         </div>
                     </div>
-                    <div class="flex gap-6">
+                    <div class="flex gap-6" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                         <div class="text-3xl font-bold text-green-600 opacity-50 flex-shrink-0">04</div>
                         <div>
                         <h3 class="text-xl font-bold text-green-950 mb-2">Свържете се отново</h3>
@@ -433,7 +433,7 @@ const slides  = [
                     <h2 class="text-4xl md:text-5xl font-bold text-green-950 mb-4">What Families Say</h2>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
+                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all" data-aos="fade-up">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
                         <p class="text-gray-700 italic mb-6 leading-relaxed">"Чудесно лагерче. Браво Момчета!"</p>
                         <div>
@@ -441,7 +441,7 @@ const slides  = [
                         <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
-                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
+                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all" data-aos="fade-up">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
                         <p class="text-gray-700 italic mb-6 leading-relaxed">"Супер беше"</p>
                         <div>
@@ -449,7 +449,7 @@ const slides  = [
                         <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
-                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all">
+                    <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all" data-aos="fade-up">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
                         <p class="text-gray-700 italic mb-6 leading-relaxed">"❤️"</p>
                         <div>
@@ -465,10 +465,10 @@ const slides  = [
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                     <div class="img-box">
-                    <NuxtImg src="/images/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl "/>
+                    <NuxtImg src="/images/about.jpg" alt="About Me" class="max-lg:mx-auto object-cover rounded-3xl " data-aos="fade-right" data-aos-duration="300" data-aos-easing="ease-in-out"/>
                     </div>
                     <div class="lg:pl-[100px] flex items-center">
-                    <div class="data w-full">
+                    <div class="data w-full" data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         инж. Николай Адев </h2>
                         <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
@@ -491,7 +491,7 @@ const slides  = [
                 </div>
             </section>
             <!-- contact -->
-            <section id="contact" class="py-24">
+            <section id="contact" class="py-24" data-aos="fade-up" data-aos-duration="2000">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="md:flex gap-x-24 clear-left md:mb-16 mb-10">
                         <div class=" md:mb-0 mb-4">
