@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-
 </script>
 
 <template>
@@ -359,7 +358,7 @@
                         <div>
                         <h3 class="text-xl font-bold text-green-950 mb-2">Свържете се отново</h3>
                         <p class="text-gray-700 leading-relaxed">Груповите дейности ни позволяват да видим своите борби отразени в другите, изграждайки по-дълбоки връзки, емоционална интелигентност и любов към себе си.
-        </p>
+                            </p>
                         </div>
                     </div>
                     </div>
@@ -367,7 +366,8 @@
                 </div>
             </div>
             </section>
-            <!-- carousel -->
+            <!-- carousel -->   
+            
              
             <!-- testimonials -->
             <section class="py-12 bg-gradient-to-b from-green-100 to-green-50">
