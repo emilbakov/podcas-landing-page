@@ -11,6 +11,10 @@ const slides  = [
   { id: 1, src: '/pic/1.jpeg', alt: 'Photo 1' },
   { id: 2, src: '/pic/2.jpeg', alt: 'Photo 2' },
   { id: 3, src: '/pic/3.jpeg', alt: 'Photo 3' },
+  { id: 4, src: '/pic/4.jpeg', alt: 'Photo 4' },
+  { id: 5, src: '/pic/5.jpeg', alt: 'Photo 5' },
+  { id: 6, src: '/pic/6.jpeg', alt: 'Photo 6' },
+  { id: 7, src: '/pic/7.jpeg', alt: 'Photo 7' },
 ]
 </script>
 
@@ -379,11 +383,11 @@ const slides  = [
             </div>
             </section>
             <!-- carousel -->   
-            <section >
+            <section class="py-12 mx-auto max-w-6xl px-6">
                  <Carousel v-bind="config">
                 <Slide v-for="slide in slides" :key="slide.id">
                     <div class="carousel__item">
-                    <img :src="slide.src" :alt="slide.alt" class="w-full h-full object-contain" />
+                    <img :src="slide.src" :alt="slide.alt" class="w-full h-full object-cover" />
                     </div>
                 </Slide>
 
@@ -489,3 +493,20 @@ const slides  = [
         </AtomsContainer>
     </section>
 </template>
+<style>
+
+
+.carousel {
+  --vc-pgn-background-color: rgba(255, 255, 255, 0.7);
+  --vc-pgn-active-color: rgba(255, 255, 255, 1);
+  --vc-nav-background: rgba(255, 255, 255, 0.7);
+  --vc-nav-border-radius: 100%;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
