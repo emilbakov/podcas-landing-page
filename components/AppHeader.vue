@@ -74,7 +74,8 @@ const navLinks = [
                     lg:border-none lg:shadow-none lg:rounded-none
                     lg:bg-transparent w-full lg:w-max py-6 lg:py-0 lg:visible lg:relative flex 
                     transition-all duration-300 ease-linear origin-top translate-y-6 lg:translate-y-0"
-                    :class="navIsOpen?'!visible !opacity-100 !translate-y-0':''">
+                    :class="navIsOpen?'!visible !opacity-100 !translate-y-0':''"
+                    @click="navIsOpen = false">
                     <ul class="text-gray-700 dark:text-gray-100 w-full flex lg:items-center gap-y-4 lg:gap-x-8 flex-col lg:flex-row">
                         <AtomsNavLink v-for="navItem in navLinks" :href="navItem.href" :text="navItem.text" />
                     </ul>
