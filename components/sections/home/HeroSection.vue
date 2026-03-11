@@ -1,21 +1,5 @@
 <script setup lang="ts">
-import 'vue3-carousel/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-const carouselConfig = {
-  itemsToShow: 2.5,
-  gap: 5,
-  wrapAround: true
-}
 
-const slides = [
-  { id: 1, src: '/pic/1.jpeg', alt: 'Photo 1' },
-  { id: 2, src: '/pic/2.jpeg', alt: 'Photo 2' },
-  { id: 3, src: '/pic/3.jpeg', alt: 'Photo 3' },
-  { id: 4, src: '/pic/4.jpeg', alt: 'Photo 4' },
-  { id: 5, src: '/pic/5.jpeg', alt: 'Photo 5' },
-  { id: 6, src: '/pic/6.jpeg', alt: 'Photo 6' },
-  { id: 7, src: '/pic/7.jpeg', alt: 'Photo 7' }
-]
 
 </script>
 
@@ -384,28 +368,7 @@ const slides = [
             </div>
             </section>
             <!-- carousel -->
-             <!-- carousel -->
-            <container class="py-12 mt-5">
-                 <ClientOnly>
-                     <Carousel v-bind="carouselConfig">
-                        <Slide v-for="slide in slides" :key="slide.id">
-                            <div class="carousel__item">
-                            <img
-                                :src="slide.src"
-                                :alt="slide.alt"
-                                class="w-full h-full object-cover rounded"
-                            />
-                            </div>
-                        </Slide>
-
-                        <template #addons>
-                        <Navigation />
-                        <Pagination />
-                        </template>
-                        </Carousel>
-                 </ClientOnly>
-               
-            </container>
+             
             <!-- testimonials -->
             <section class="py-12 bg-gradient-to-b from-green-100 to-green-50">
                 <div class="max-w-6xl mx-auto px-6">
