@@ -6,8 +6,9 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
 
     modules: [
-        '@nuxtjs/color-mode',
-        '@nuxt/image',
+      '@nuxtjs/color-mode',
+      '@nuxt/image',
+      'vue3-carousel-nuxt',
     ],
     css:[
         '~/assets/css/app.css'
