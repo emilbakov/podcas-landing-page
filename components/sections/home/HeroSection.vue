@@ -22,7 +22,7 @@ const slides  = [
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
             <!-- hero1 -->
-            <section class="bg-stone-50 overflow-hidden"  data-aos="fade-up" data-aos-duration="3000">
+            <section class="bg-stone-50 overflow-hidden"  data-aos="fade-up" data-aos-duration="1000">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     
@@ -87,7 +87,7 @@ const slides  = [
                     </div> -->
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <!-- p1 -->
-                        <a>
+                        <a data-aos="flip-up" data-aos-duration="1000">
                             <NuxtLink to="/programs/1" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                 <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -107,7 +107,7 @@ const slides  = [
                             </NuxtLink>
                         </a>
                             <!-- p2 -->
-                        <a>
+                        <a data-aos="flip-up" data-aos-duration="1500">
                             <NuxtLink to="/programs/2" class="block">
                                 <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl border-4 ">
                                     <div class="h-48 bg-gradient-to-br from-green-700 to-green-900 flex items-center justify-center">
@@ -128,24 +128,24 @@ const slides  = [
                             </NuxtLink>
                         </a>
                         <!-- p3 -->
-                        <a>
-                        <NuxtLink to="/programs/6" class="block">
-                            <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
-                                                    <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
-                                                        <span class="text-7xl">🪵</span>
-                                                    </div>
-                                                    <div class="p-8">
-                                                        <h3 class="text-2xl font-bold text-green-950 mb-2">Горски лагер</h3>
-                                                        <p class="text-green-600 font-semibold mb-4">Възраст от 7-17</p>
-                                                        <p class="text-gray-700 mb-6 leading-relaxed">Представете си място, където телефонът не е нужен, защото реалността е по-вълнуваща от всяка игра, а класната стая няма стени, а само вековни дървета</p>
-                                                        <ul class="space-y-2 text-gray-700">
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Училище за следотърсачи</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Зелена аптека и оцеляване</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Горски архитекти и творци</li>
-                                                        </ul>
-                                                    </div>
-                                                    </div>
-                        </NuxtLink>
+                        <a data-aos="flip-up" data-aos-duration="3000">
+                            <NuxtLink to="/programs/6" class="block">
+                                <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
+                                                        <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
+                                                            <span class="text-7xl">🪵</span>
+                                                        </div>
+                                                        <div class="p-8">
+                                                            <h3 class="text-2xl font-bold text-green-950 mb-2">Горски лагер</h3>
+                                                            <p class="text-green-600 font-semibold mb-4">Възраст от 7-17</p>
+                                                            <p class="text-gray-700 mb-6 leading-relaxed">Представете си място, където телефонът не е нужен, защото реалността е по-вълнуваща от всяка игра, а класната стая няма стени, а само вековни дървета</p>
+                                                            <ul class="space-y-2 text-gray-700">
+                                                                <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Училище за следотърсачи</li>
+                                                                <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Зелена аптека и оцеляване</li>
+                                                                <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Горски архитекти и творци</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                            </NuxtLink>
                         </a>
 
 
@@ -156,7 +156,7 @@ const slides  = [
                         
                         <!-- p4 --> 
 
-                        <a>
+                        <a data-aos="flip-up" data-aos-duration="1000">
                             <NuxtLink to="/programs/4" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                         <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -181,7 +181,7 @@ const slides  = [
                        
                      <!-- p5 -->
 
-                        <a>
+                        <a data-aos="flip-up" data-aos-duration="1500">
                             <NuxtLink to="/programs/5" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                     <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -207,7 +207,7 @@ const slides  = [
 
                         
                      <!-- p6 -->
-                        <a>
+                        <a data-aos="flip-up" data-aos-duration="2000">
                             <NuxtLink to="/programs/3" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
                                                         <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
@@ -239,8 +239,8 @@ const slides  = [
             <section class="text-gray-600 body-font overflow-hidden mt-5">
                 <div class="container px-5 py-12 mx-auto">
                     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-                    <NuxtImg alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/images/gather.jpg"/>
-                    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                    <NuxtImg alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto  object-contain rounded" src="/images/gather.jpg" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"/>
+                    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <h1 class="text-gray-900 text-5xl title-font font-bold mb-1">В центъра на всичко е ученето чрез игри и преживяване.</h1>
                     
                         
