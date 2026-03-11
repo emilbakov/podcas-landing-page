@@ -391,7 +391,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                         <p class="text-gray-700 italic mb-6 leading-relaxed">"❤️"</p>
                         <div>
                         <p class="font-bold text-green-950">Maria Ivaylova</p>
-                        <p class="text-sm text-gray-600">``</p>
+                        <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
                     </div>
