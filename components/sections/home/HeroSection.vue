@@ -21,20 +21,48 @@ const slides  = [
 <template>
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
-           <!-- section hero -->
-            <section class="py-24 container mx-auto relative border-2 border-solid rounded-3xl mt-5">
-                <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-                <div class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
-                    <div class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
-                    <div class="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                        <h2 class="text-green-950 bg-clip-text text-4xl font-black font-manrope leading-normal lg:text-start text-center text-5xl drop-shadow-lg">Готови ли сте да замените шума на града и светлината на екраните с истинско приключение сред природата?</h2>
-                    </div>
+            <!-- hero1 -->
+            <section class="bg-stone-50 overflow-hidden"  data-aos="fade-up" data-aos-duration="3000">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     
+                    <div class="max-w-xl">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-sm font-semibold mb-6">
+                        🌳 Природата ви кани
                     </div>
-                    <NuxtImg class="lg:mx-0 mx-auto rounded-3xl object-cover" src="/images/hero.jpg" alt="about Us image" />
-                </div>
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight mb-6">
+                        Открийте  <span class="text-emerald-600">Магията на Природата</span>
+                    </h1>
+                    <p class="text-2xl text-stone-600 mb-8 leading-relaxed">
+                        Готови ли сте да замените шума на града и светлината на екраните с истинско приключение сред природата?
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <NuxtLink 
+                        to="#programs" 
+                        class="inline-flex justify-center items-center px-8 py-4 bg-emerald-600 text-white font-semibold rounded-xl shadow-md hover:bg-emerald-700 hover:shadow-lg transition-all duration-300"
+                        >ПРОГРАМИ                       </NuxtLink>
+                        <NuxtLink 
+                        to="#contact" 
+                        class="inline-flex justify-center items-center px-8 py-4 bg-white text-stone-700 border border-stone-200 font-semibold rounded-xl shadow-sm hover:bg-stone-100 hover:text-emerald-700 transition-all duration-300"
+                        >
+                        СВЪРЖИ СЕ С НАС
+                        </NuxtLink>
+                    </div>
+                    </div>
+
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl  group">
+                        <div class="absolute inset-0 bg-emerald-600/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                        <NuxtImg class="lg:mx-0 mx-auto rounded-3xl object-contain relative z-0" src="/images/hero.jpg" alt="about Us image" />
+
+                        
+                        </div>
+
+                    </div>
                 </div>
             </section>
+           <!-- section hero -->
+           
 
            
                 

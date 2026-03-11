@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       '@nuxtjs/color-mode',
       '@nuxt/image',
       'vue3-carousel-nuxt',
+      'nuxt-aos',
     ],
     css:[
         '~/assets/css/app.css'
