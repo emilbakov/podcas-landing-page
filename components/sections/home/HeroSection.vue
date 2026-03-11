@@ -384,24 +384,27 @@ const slides = [
             </div>
             </section>
             <!-- carousel -->
-              <!-- carousel -->
+             <!-- carousel -->
             <container class="py-12 mt-5">
-                <Carousel v-bind="carouselConfig">
-                    <Slide v-for="slide in slides" :key="slide.id">
-                        <div class="carousel__item">
-                        <img
-                            :src="slide.src"
-                            :alt="slide.alt"
-                            class="w-full h-full object-cover rounded"
-                        />
-                        </div>
-                    </Slide>
+                 <ClientOnly>
+                     <Carousel v-bind="carouselConfig">
+                        <Slide v-for="slide in slides" :key="slide.id">
+                            <div class="carousel__item">
+                            <img
+                                :src="slide.src"
+                                :alt="slide.alt"
+                                class="w-full h-full object-cover rounded"
+                            />
+                            </div>
+                        </Slide>
 
-                    <template #addons>
-                    <Navigation />
-                    <Pagination />
-                    </template>
-                </Carousel>
+                        <template #addons>
+                        <Navigation />
+                        <Pagination />
+                        </template>
+                        </Carousel>
+                 </ClientOnly>
+               
             </container>
             <!-- testimonials -->
             <section class="py-12 bg-gradient-to-b from-green-100 to-green-50">
