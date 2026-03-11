@@ -1,7 +1,7 @@
 <template>
     <footer class="pt-20 bg-gray-100 dark:bg-body border-t border-gray-200 dark:border-gray-100/20">
         <AtomsContainer class-name="pb-10">
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 gap-y-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:col-span-2 gap-8 gap-y-10">
                 <div class="col-span-2 md:col-span-4 lg:col-span-2">
                     <NuxtLink to="/" class=" flex items-center gap-2">
                         <span class="flex">

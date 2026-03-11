@@ -2,7 +2,7 @@
 useHead({
   title: 'Горска педагогика ',
   meta: [
-    { name: 'description', content: 'горска педагогика' },
+    { name: 'description', content: 'горска педагогика,' },
   ],
   link: [
     { rel: 'icon', type: 'image/png', href: '/logo1.png' }
