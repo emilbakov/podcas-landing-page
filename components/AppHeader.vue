@@ -44,7 +44,7 @@ const navLinks = [
                             </svg>
 
                         </span>
-                        <span class="text-2xl font-bold text-gray-700 dark:text-white">Горска педагогика</span>
+                        <span class="text-2xl font-bold text-gray-700 dark:text-white">Горски Дейности</span>
                     </NuxtLink>
                 </div>
                 <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">

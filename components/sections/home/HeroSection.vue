@@ -12,8 +12,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                 <div class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                     <div class="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                        <h2 class="text-green-950 bg-clip-text text-4xl font-black font-manrope leading-normal lg:text-start text-center text-5xl drop-shadow-lg">Готови ли
-                        сте да замените шума на града и светлината на екраните?</h2>
+                        <h2 class="text-green-950 bg-clip-text text-4xl font-black font-manrope leading-normal lg:text-start text-center text-5xl drop-shadow-lg">Готови ли сте да замените шума на града и светлината на екраните с истинско приключение сред природата?</h2>
                     </div>
                     
                     </div>
@@ -49,7 +48,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                                 </div>
                                 <div class="p-8">
                                 <h3 class="text-2xl font-bold text-green-950 mb-2">Горска Педагогика</h3>
-                                <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
+                                <p class="text-green-600 font-semibold mb-4">За всички възрасти</p>
                                 <p class="text-gray-700 mb-6 leading-relaxed">Горската педагогика е уникална комбинация от забавни интерактивни игри и увлекателни беседи, които отварят вратите към приказния свят на природата. </p>
                                 <ul class="space-y-2 text-gray-700">
                                     <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Тайните на дивия свят</li>
@@ -69,7 +68,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                                     </div>
                                     <div class="p-8">
                                     <h3 class="text-2xl font-bold text-green-950 mb-2">Горски тиймбилдинг – FOREST TEAM BONDING</h3>
-                                    <p class="text-green-600 font-semibold mb-4">All Ages</p>
+                                    <p class="text-green-600 font-semibold mb-4">Възраст от 18-70</p>
                                     <p class="text-gray-700 mb-6 leading-relaxed">Внимание, екипи! Време е да оставите лаптопите и да „спасите Земята“ – буквално!
                                     Писнало ли ви е от безкрайни Zoom срещи, монитори, които ви „гледат“ лошо, и термина „burnout“, който дебне зад всеки ъгъл?. </p>
                                     <ul class="space-y-2 text-gray-700">
@@ -81,28 +80,32 @@ import NavLink from '~/components/atoms/NavLink.vue';
                                 </div>
                             </NuxtLink>
                         </a>
-
                         <!-- p3 -->
                         <a>
-                            <NuxtLink to="/programs/3" class="block">
+                        <NuxtLink to="/programs/6" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
-                                                        <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
-                                                        <span class="text-7xl">🏕️</span>
-                                                        </div>
-                                                        <div class="p-8">
-                                                        <h3 class="text-2xl font-bold text-green-950 mb-2">Горско отдръпване – Forest retreat</h3>
-                                                        <p class="text-green-600 font-semibold mb-4">All Ages</p>
-                                                        <p class="text-gray-700 mb-6 leading-relaxed">Горско отдръпване, обединяваща практиките Шинрин-йоку (горски бани) и Шинрин-рьохо (горска терапия) като методи за справяне със стреса в съвременния свят. Чрез осъзнато стимулиране на сетивата и отдалечаване от технологиите, тези занимания помагат за възстановяване на физическото здраве, укрепване на имунитета и постигане на емоционален баланс</p>
-                                                        <ul class="space-y-2 text-gray-700">
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Пробудете сетивата си</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Научно доказано здраве</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Излекувайте ума и сърцето си</li>
-                                                        </ul>
-                                                        </div>
+                                                    <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
+                                                        <span class="text-7xl">🪵</span>
                                                     </div>
-                            </NuxtLink>  
+                                                    <div class="p-8">
+                                                        <h3 class="text-2xl font-bold text-green-950 mb-2">Горски лагер</h3>
+                                                        <p class="text-green-600 font-semibold mb-4">Възраст от 7-17</p>
+                                                        <p class="text-gray-700 mb-6 leading-relaxed">Представете си място, където телефонът не е нужен, защото реалността е по-вълнуваща от всяка игра, а класната стая няма стени, а само вековни дървета</p>
+                                                        <ul class="space-y-2 text-gray-700">
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Училище за следотърсачи</li>
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Зелена аптека и оцеляване</li>
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Горски архитекти и творци</li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                        </NuxtLink>
                         </a>
 
+
+
+
+
+                        
                         
                         <!-- p4 --> 
 
@@ -114,7 +117,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                                                         </div>
                                                             <div class="p-8">
                                                                 <h3 class="text-2xl font-bold text-green-950 mb-2">Горски семейни и групови игри и приключения сред природата</h3>
-                                                                <p class="text-green-600 font-semibold mb-4">All ages</p>
+                                                                <p class="text-green-600 font-semibold mb-4"> За всички възрасти</p>
                                                                 <p class="text-gray-700 mb-6 leading-relaxed">Върнете се към природата и открийте магията ѝ заедно със своите близки! В тези натоварени времена излизането на открито не е просто почивка, а истинско „презареждане“ на силите, което ни помага да се справим със стреса и тревожността.
                                                                 </p>
                                                                 <ul class="space-y-2 text-gray-700">
@@ -139,7 +142,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                                                     </div>
                                                     <div class="p-8">
                                                         <h3 class="text-2xl font-bold text-green-950 mb-2">⦁	Горска разходка  - Планински преходи с интересни беседи за гората</h3>
-                                                        <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
+                                                        <p class="text-green-600 font-semibold mb-4">Възраст от 7-70</p>
                                                         <p class="text-gray-700 mb-6 leading-relaxed">Планински преходи с мисия: Открий тайните на гората и преоткрийте себе си. Забравете за обикновеното ходене в планината
 
                                                             Отвъд пътеките: Открийте скрития език на гората с вашия горски водач. Забравете за стандартните разходки. Каня ви на едно по-различно пътешествие – „Горска разходка“, където планината не е просто декор, а жив организъм, с който ще се научите да общувате. </p>
@@ -157,25 +160,24 @@ import NavLink from '~/components/atoms/NavLink.vue';
 
                         
                      <!-- p6 -->
-
                         <a>
-                        <NuxtLink to="/programs/6" class="block">
+                            <NuxtLink to="/programs/3" class="block">
                             <div class="bg-white rounded-2xl overflow-hidden hover:-translate-y-2 transition-all hover:shadow-xl">
-                                                    <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
-                                                        <span class="text-7xl">🪵</span>
-                                                    </div>
-                                                    <div class="p-8">
-                                                        <h3 class="text-2xl font-bold text-green-950 mb-2">Горски лагер</h3>
-                                                        <p class="text-green-600 font-semibold mb-4">Ages 4-6</p>
-                                                        <p class="text-gray-700 mb-6 leading-relaxed">Представете си място, където телефонът не е нужен, защото реалността е по-вълнуваща от всяка игра, а класната стая няма стени, а само вековни дървета</p>
+                                                        <div class="h-48 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
+                                                        <span class="text-7xl">🏕️</span>
+                                                        </div>
+                                                        <div class="p-8">
+                                                        <h3 class="text-2xl font-bold text-green-950 mb-2">Горско отдръпване – Forest retreat</h3>
+                                                        <p class="text-green-600 font-semibold mb-4">За всички възрасти</p>
+                                                        <p class="text-gray-700 mb-6 leading-relaxed">Горско отдръпване, обединяваща практиките Шинрин-йоку (горски бани) и Шинрин-рьохо (горска терапия) като методи за справяне със стреса в съвременния свят. Чрез осъзнато стимулиране на сетивата и отдалечаване от технологиите, тези занимания помагат за възстановяване на физическото здраве, укрепване на имунитета и постигане на емоционален баланс</p>
                                                         <ul class="space-y-2 text-gray-700">
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Училище за следотърсачи</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Зелена аптека и оцеляване</li>
-                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Горски архитекти и творци</li>
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Пробудете сетивата си</li>
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Научно доказано здраве</li>
+                                                            <li class="flex items-center gap-2"><span class="text-green-600 font-bold">✓</span> Излекувайте ума и сърцето си</li>
                                                         </ul>
+                                                        </div>
                                                     </div>
-                                                    </div>
-                        </NuxtLink>
+                            </NuxtLink>  
                         </a>
 
 

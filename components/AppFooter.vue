@@ -13,7 +13,7 @@
                             </svg>
 
                         </span>
-                        <span class="text-xl font-bold text-gray-700 dark:text-white">Горска педагогика</span>
+                        <span class="text-xl font-bold text-gray-700 dark:text-white">Горски Дейности</span>
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
