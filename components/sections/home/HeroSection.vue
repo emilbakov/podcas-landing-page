@@ -304,9 +304,8 @@ import NavLink from '~/components/atoms/NavLink.vue';
 
                         </div>
 
-                        <h2 class="text-green-900 text-lg title-font font-medium mb-3">Учене, което вдъхновява</h2>
-                        <p class="leading-relaxed text-base">Забравете сухата теория. Тук знанието се надгражда стъпка по стъпка,
-                        започвайки от основите на природата и преминавайки към сложни екипни предизвикателства.
+                        <h2 class="text-green-900 text-lg title-font font-medium mb-3">Магически локации:</h2>
+                        <p class="leading-relaxed text-base">Въпреки че заниманията могат провеждат в цяла България, Родопа е мастото на което се провеждат повечето събития  – Пампорово, Рожен, Смолян, Левочево и Момчиловци.
                         </p>
 
                     </div>
@@ -410,7 +409,7 @@ import NavLink from '~/components/atoms/NavLink.vue';
                         <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                         инж. Николай Адев </h2>
                         <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                          Експерт лесовъд с над 15-годишен опит и специалист по горска педагогика със 7-годишна практика.
+                        Експерт лесовъд с над 15-годишен опит и специалист по горска педагогика със 7-годишна практика.
                         • Досегашна практика: Провеждал съм безплатни занимания в детски градини, училища и домове за деца без
                         родители. В сферата на туризма съм работил с клиенти на хотели в Пампорово, туроператорски групи, свободни
                         събития в природата и рождени дни.
