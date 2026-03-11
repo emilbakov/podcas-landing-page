@@ -1,5 +1,17 @@
 <script setup lang="ts">
+import 'vue3-carousel/carousel.css'
+import { Carousel, Slide, Navigation } from 'vue3-carousel'
+const config = {
+  height: 200,
+  itemsToShow: 2,
+  gap: 5,
+}
 
+const slides  = [
+  { id: 1, src: '/pic/1.jpeg', alt: 'Photo 1' },
+  { id: 2, src: '/pic/2.jpeg', alt: 'Photo 2' },
+  { id: 3, src: '/pic/3.jpeg', alt: 'Photo 3' },
+]
 </script>
 
 <template>
@@ -367,7 +379,20 @@
             </div>
             </section>
             <!-- carousel -->   
-            
+            <section >
+                 <Carousel v-bind="config">
+                <Slide v-for="slide in slides" :key="slide.id">
+                    <div class="carousel__item">
+                    <img :src="slide.src" :alt="slide.alt" class="w-full h-full object-contain" />
+                    </div>
+                </Slide>
+
+                <template #addons>
+                    <Navigation />
+                    <Pagination />
+                </template>
+                </Carousel>
+            </section>
              
             <!-- testimonials -->
             <section class="py-12 bg-gradient-to-b from-green-100 to-green-50">
