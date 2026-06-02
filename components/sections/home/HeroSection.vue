@@ -23,7 +23,7 @@ const slides  = [
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
             <!-- video part -->
-            <div class="relative h-[60vh] w-full flex items-center justify-center overflow-hidden rounded-3xl mt-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="relative h-[70vh] w-full flex items-center justify-center overflow-hidden rounded-3xl mt-5" data-aos="fade-up" data-aos-duration="1000">
                 <!-- Background Video -->
                 <video 
                     autoplay 
