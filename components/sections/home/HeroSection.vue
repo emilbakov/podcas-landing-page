@@ -469,9 +469,9 @@ const slides  = [
                     </div>
                     <div class="bg-white p-8 rounded-2xl hover:shadow-lg transition-all" data-aos="fade-up">
                         <div class="text-xl text-orange-400 mb-4">★★★★★</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">"❤️"</p>
+                        <p class="text-gray-700 italic mb-6 leading-relaxed">"Благодарим за супер готините игри! Децата се забавляваха, а по-големите деца още повече😄"</p>
                         <div>
-                        <p class="font-bold text-green-950">Maria Ivaylova</p>
+                        <p class="font-bold text-green-950">Sis Key</p>
                         <p class="text-sm text-gray-600"></p>
                         </div>
                     </div>
