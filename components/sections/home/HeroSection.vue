@@ -18,9 +18,27 @@ const slides  = [
 ]
 </script>
 
-<template>
+<template>  
+
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
+            <!-- video part -->
+            <div class="relative h-[60vh] w-full flex items-center justify-center overflow-hidden rounded-3xl mt-5" data-aos="fade-up" data-aos-duration="1000">
+                <!-- Background Video -->
+                <video 
+                    autoplay 
+                    loop 
+                    muted 
+                    playsinline 
+                    class="absolute z-10 w-auto min-w-full min-h-full max-w-none object-cover">
+                    <source src="/video/gorski.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+               
+                <!-- Foreground Content -->
+                
+            </div>    
             <!-- hero1 -->
             <section class="bg-stone-50 overflow-hidden"  data-aos="fade-up" data-aos-duration="1000">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
