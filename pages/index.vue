@@ -1,19 +1,20 @@
-<script setup lang="ts">
-useHead({
-  title: 'Горска педагогика ',
-  meta: [
-    { name: 'description', content: 'горска педагогика,' },
-  ],
-  link: [
-    { rel: 'icon', type: 'image/png', href: '/logo1.png' }
-  ],
-})
+<script setup>
+import programs from '~/data/programs.json'
+const playing = ref(true)
+const film = ref(null)
+const selected = ref('Всички')
+const filters = ['Всички','За деца','За екипи','За семейства','За мен']
+const visible = computed(() => programs.filter(p => selected.value === 'Всички' || ({'За деца':[1,6],'За екипи':[2],'За семейства':[4,5],'За мен':[3,5]})[selected.value]?.includes(p.id)))
+function toggleVideo(){ if(!film.value) return; if(film.value.paused) film.value.play(); else film.value.pause() }
+onMounted(() => { if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) film.value?.pause() })
+useSeoMeta({title:'Горски пътеки — по-малко екрани, повече природа',description:'Шест пътеки към природата: горска педагогика, тиймбилдинг, семейни приключения, отдръпване, летен лагер и планински разходки с Николай Адев.'})
 </script>
-<template>
-    <div>
-        
-        
-      <SectionsHomeHeroSection/>
-      
-    </div>
-</template>
+<template><main id="main">
+ <section class="hero"><video ref="film" class="hero-video" autoplay loop muted playsinline preload="metadata" poster="/images/gather.jpg" aria-label="Моменти от нашите горски приключения" @play="playing=true" @pause="playing=false"><source src="/video/gorski.mp4" type="video/mp4"></video><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow light">РОДОПИТЕ И ОЩЕ НЕОТКРИТИ МЕСТА</p><h1>По-малко екрани.<br>Повече природа.<br><em>Повече живот.</em></h1><p class="hero-intro">Учене чрез игра. Приключения сред гората.<br>Преживявания, които остават.</p><NuxtLink class="button lime" to="#programs">Открийте своята пътека <span>↗</span></NuxtLink></div><div class="hero-bottom"><span>ВЛЕЗТЕ В ГОРАТА. ОТКРИЙТЕ СВОЯТА ПЪТЕКА.</span><button class="video-toggle" @click="toggleVideo" :aria-label="playing ? 'Пауза на видеото' : 'Пусни видеото'">{{ playing ? 'Ⅱ Пауза' : '▷ Пусни' }}</button></div></section>
+ <div class="intro-strip"><span>УЧИМ. ИГРАЕМ. ОТКРИВАМЕ.</span><p>За деца, семейства, екипи и всеки, който има нужда да се върне към истинския свят.</p><span class="compass">✳</span></div>
+ <section id="programs" class="programs section"><div class="section-heading"><div><p class="eyebrow">ШЕСТ НАЧИНА ДА БЪДЕМ ПО-БЛИЗО</p><h2>Всеки има<br><em>своята пътека.</em></h2></div><p>Към ново знание. Към хората до вас.<br>Или просто обратно към себе си.<br>Изберете откъде да започнете.</p></div><div class="filters" aria-label="Програми според участниците"><button v-for="filter in filters" :key="filter" @click="selected=filter" :aria-pressed="selected===filter" :class="{active:selected===filter}">{{ filter }}</button></div><div class="program-grid" aria-live="polite"><NuxtLink v-for="p in visible" :key="p.id" :to="'/programs/'+p.id" class="program-card"><div class="card-image"><img :src="p.image" :alt="p.title" loading="lazy"><span class="trail-number">ПЪТЕКА 0{{ p.number }}</span><span class="card-arrow">↗</span></div><div class="card-copy"><p class="eyebrow">{{ p.audience }}</p><h3>{{ p.title }}</h3><p>{{ p.summary }}</p><span class="card-link">По тази пътека <span>↗</span></span></div></NuxtLink></div></section>
+ <section class="manifesto"><p class="eyebrow light">ПРИРОДАТА Е НАЙ-ДОБРИЯТ УЧИТЕЛ</p><h2>Някои неща не се учат<br>от екран.<br><em>Те се преживяват.</em></h2><p>Сред дърветата търсим, докосваме, наблюдаваме, играем и създаваме. Гората събужда любопитството и оставя място за въображението.</p><NuxtLink class="text-link" to="/programs/1">Открийте горската педагогика ↗</NuxtLink><span class="tree-art" aria-hidden="true">♧</span></section>
+ <section id="about" class="about section"><div class="about-photo"><img src="/images/about.jpg" alt="Инж. Николай Адев — лесовъд и планински водач" loading="lazy"><span>ВАШИЯТ ЧОВЕК В ГОРАТА</span></div><div class="about-copy"><p class="eyebrow">С ЧОВЕК, КОЙТО ПОЗНАВА ПЪТЯ</p><h2>Гората има истории.<br><em>Николай ги разказва.</em></h2><p class="about-name">инж. Николай Адев</p><p>Лесовъд, специалист по горска педагогика и лицензиран планински водач № В-00485. С него гората не е просто пътека на картата. Тя е история, която предстои да чуете.</p><p>От първите детски открития до общото приключение на един екип — всяка среща е покана да видим природата с други очи.</p><NuxtLink class="button outline" to="#contact">Запознайте се с Николай <span>↗</span></NuxtLink></div></section>
+ <section id="moments" class="moments section"><div class="section-heading"><div><p class="eyebrow">ИСТИНСКИ ХОРА. ИСТИНСКИ ПРЕЖИВЯВАНИЯ.</p><h2>Това остава <em>с нас.</em></h2></div><span class="small-note">Малки открития.<br>Големи спомени.</span></div><div class="photo-strip"><img v-for="n in [1,2,3,4]" :key="n" :src="'/pic/'+n+'.jpeg'" :alt="'Момент от горските занимания — '+n" loading="lazy"></div></section>
+ <ContactSection/>
+</main></template>

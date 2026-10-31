@@ -1,24 +1,6 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    build: {
-    transpile: ['vue3-carousel'],
-  },
-    compatibilityDate: '2024-11-01',
-
-    modules: [
-      '@nuxtjs/color-mode',
-      '@nuxt/image',
-      'vue3-carousel-nuxt',
-      'nuxt-aos',
-    ],
-    css:[
-        '~/assets/css/app.css'
-    ],
-   
-    postcss:{
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {}
-        }
-    },
+ compatibilityDate: '2024-11-01',
+ devtools: { enabled: false },
+ css: ['~/assets/css/app.css'],
+ app: { head: { htmlAttrs: { lang: 'bg' }, meta: [{name:'theme-color',content:'#243e31'}], link: [{rel:'icon',type:'image/png',href:'/images/logo1.png'}] } },
 })
